@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(foreach \\($u in @\\('https://github.com/basia-dem/basia-dem.github.io', 'https://basia-dem.github.io/'\\)\\) { try { $r = Invoke-WebRequest -Uri $u -UseBasicParsing -MaximumRedirection 0 -ErrorAction Stop; \"$\\($r.StatusCode\\) $u\" } catch { $resp = $_.Exception.Response; if \\($resp\\) { \"$\\($resp.StatusCode.value__\\) $u\" } else { \"ERR $u  $\\($_.Exception.Message\\)\" } } })"
+    ]
+  }
+}
