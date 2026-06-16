@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Barbara Demczyszak — QA Software Engineer. Quality engineering, test automation, and reliable software delivery." />
+    <meta name="description" content="Barbara Demczyszak — ISTQB-certified QA Test Engineer. Test case design across all test levels, API testing, and bug analysis in agile Scrum teams." />
     <meta name="author" content="Barbara Demczyszak" />
     <meta name="theme-color" content="#0a0e17" />
-    <title>Barbara Demczyszak | QA Software Engineer</title>
+    <title>Barbara Demczyszak | QA Test Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -27,6 +27,7 @@
                 <li><a href="#about">about</a></li>
                 <li><a href="#skills">skills</a></li>
                 <li><a href="#experience">experience</a></li>
+                <li><a href="#education">education</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
             <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -47,8 +48,9 @@
                     <span id="typed-role" class="typed"></span><span class="cursor">|</span>
                 </h2>
                 <p class="hero-desc">
-                    Breaking software so you don't have to. I design test strategies,
-                    automate the boring parts, and chase bugs until they confess.
+                    ISTQB-certified QA Test Engineer. I design structured test cases across
+                    all test levels, test REST APIs with Postman, and chase bugs until they
+                    confess &mdash; all within agile Scrum teams.
                 </p>
                 <div class="hero-cta">
                     <a href="#contact" class="btn btn-primary">
@@ -72,12 +74,14 @@
                     <p><span class="term-prompt">basia@qa</span>:<span class="term-path">~</span>$ cat profile.json</p>
                     <pre class="term-code">{
   <span class="key">"name"</span>: <span class="str">"Barbara"</span>,
-  <span class="key">"role"</span>: <span class="str">"QA Software Engineer"</span>,
+  <span class="key">"role"</span>: <span class="str">"QA Test Engineer"</span>,
+  <span class="key">"certified"</span>: <span class="str">"ISTQB Foundation Level"</span>,
   <span class="key">"focus"</span>: [
-    <span class="str">"test automation"</span>,
-    <span class="str">"manual testing"</span>,
-    <span class="str">"quality engineering"</span>
+    <span class="str">"test case design"</span>,
+    <span class="str">"API testing (REST)"</span>,
+    <span class="str">"manual &amp; exploratory testing"</span>
   ],
+  <span class="key">"location"</span>: <span class="str">"Lenzburg, CH"</span>,
   <span class="key">"status"</span>: <span class="str">"open to opportunities"</span>,
   <span class="key">"coffee"</span>: <span class="bool">true</span>
 }</pre>
@@ -95,22 +99,22 @@
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        Hello! I'm <strong>Barbara</strong>, a Quality Assurance Software
-                        Engineer who genuinely enjoys finding the edge cases everyone
-                        else overlooked. I believe great quality isn't a phase at the
-                        end of a sprint &mdash; it's a mindset baked into every commit.
+                        Hello! I'm <strong>Barbara</strong>, an <strong>ISTQB-certified
+                        QA Test Engineer</strong> who genuinely enjoys finding the edge cases
+                        everyone else overlooked. I believe great quality isn't a phase at the
+                        end of a sprint &mdash; it's a mindset baked into every refinement.
                     </p>
                     <p>
-                        My day-to-day mixes <strong>manual exploratory testing</strong>,
-                        <strong>automated test design</strong>, and close collaboration
-                        with developers and product folks to ship software that just
-                        works. I care about clean test architecture, fast feedback loops,
-                        and writing the kind of bug reports that get fixed on the first try.
+                        My day-to-day mixes <strong>structured test case design</strong> across
+                        all test levels, <strong>manual &amp; exploratory testing</strong>, and
+                        <strong>REST API testing</strong> with Postman &mdash; with bugs analysed
+                        and tracked in Jira and Xray. I bring the testing perspective in early
+                        during refinements and work closely with developers and the business side.
                     </p>
                     <p>When I'm not testing, you'll find me:</p>
                     <ul class="about-list">
-                        <li>Tinkering with new automation frameworks</li>
-                        <li>Reading about reliability engineering</li>
+                        <li>Sharpening my test automation skills with Playwright &amp; Cypress</li>
+                        <li>Improving my German step by step</li>
                         <li>Drinking a strong coffee while reviewing test reports</li>
                     </ul>
                 </div>
@@ -120,13 +124,13 @@
                         <span class="stat-label">commitment to quality</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-num" data-target="0">0</span>
-                        <span class="stat-label">bugs left in production (this sprint)</span>
+                        <span class="stat-num" data-target="3">0</span>
+                        <span class="stat-label">languages spoken (PL / DE / EN)</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-num" data-target="42">0</span>
+                        <span class="stat-num" data-target="8">0</span>
                         <span class="stat-unit">+</span>
-                        <span class="stat-label">test cases written this week</span>
+                        <span class="stat-label">years of professional experience</span>
                     </div>
                 </div>
             </div>
@@ -141,62 +145,48 @@
             <div class="skills-grid">
                 <article class="skill-card">
                     <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
                     </div>
-                    <h3>Test Automation</h3>
+                    <h3>Test &amp; QA</h3>
                     <ul class="skill-tags">
-                        <li>Selenium</li>
-                        <li>Cypress</li>
-                        <li>Playwright</li>
-                        <li>WebdriverIO</li>
+                        <li>Test case design</li>
+                        <li>All test levels</li>
+                        <li>Exploratory testing</li>
+                        <li>Manual testing</li>
+                        <li>Bug analysis</li>
+                        <li>Traceability</li>
                     </ul>
                 </article>
                 <article class="skill-card">
                     <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
                     </div>
-                    <h3>Languages</h3>
+                    <h3>Test Automation</h3>
                     <ul class="skill-tags">
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>Python</li>
-                        <li>SQL</li>
+                        <li>Playwright</li>
+                        <li>Cypress</li>
                     </ul>
                 </article>
                 <article class="skill-card">
                     <div class="skill-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
                     </div>
-                    <h3>API Testing</h3>
+                    <h3>API &amp; Backend Testing</h3>
                     <ul class="skill-tags">
+                        <li>REST API</li>
                         <li>Postman</li>
-                        <li>REST Assured</li>
-                        <li>Swagger</li>
-                        <li>cURL</li>
+                        <li>Swagger / JSON</li>
                     </ul>
                 </article>
                 <article class="skill-card">
                     <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
                     </div>
-                    <h3>CI / CD</h3>
+                    <h3>Tools &amp; Tracking</h3>
                     <ul class="skill-tags">
-                        <li>GitHub Actions</li>
-                        <li>Jenkins</li>
-                        <li>GitLab CI</li>
-                        <li>Docker</li>
-                    </ul>
-                </article>
-                <article class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11H1l8-8 8 8h-8v8z" transform="rotate(45 12 12)"/><circle cx="12" cy="12" r="3"/></svg>
-                    </div>
-                    <h3>Test Management</h3>
-                    <ul class="skill-tags">
-                        <li>JIRA</li>
-                        <li>TestRail</li>
+                        <li>Jira</li>
                         <li>Xray</li>
-                        <li>Zephyr</li>
+                        <li>SQL</li>
                     </ul>
                 </article>
                 <article class="skill-card">
@@ -206,9 +196,19 @@
                     <h3>Methodologies</h3>
                     <ul class="skill-tags">
                         <li>Agile / Scrum</li>
-                        <li>BDD</li>
-                        <li>TDD</li>
+                        <li>SAFe (PO / PM)</li>
                         <li>ISTQB</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <h3>Languages</h3>
+                    <ul class="skill-tags">
+                        <li>Polish — native</li>
+                        <li>German — A2 / B1</li>
+                        <li>English — A1 / A2</li>
                     </ul>
                 </article>
             </div>
@@ -217,36 +217,95 @@
         <section id="experience" class="section">
             <div class="section-head">
                 <span class="section-num">03.</span>
-                <h2 class="section-title">What I do</h2>
+                <h2 class="section-title">Experience</h2>
                 <span class="section-line"></span>
             </div>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>End-to-end test automation</h3>
-                        <p>Designing reliable, maintainable automated test suites that catch regressions early and run fast in CI.</p>
+                        <h3>QA Engineer &middot; Barbara Demczyszak QA Services @ Trans.eu</h3>
+                        <span class="timeline-date">01.2026 &ndash; 04.2026</span>
+                        <p>Analysed technical specifications and derived functional test cases. Created and
+                        maintained test cases in Xray with full traceability, ran manual and exploratory
+                        tests with test protocols, performed REST API testing with Postman, and reported
+                        bugs in Jira.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>Manual &amp; exploratory testing</h3>
-                        <p>Going beyond the test plan to find the edge cases that only show up when a real human pokes around.</p>
+                        <h3>QA Engineer &middot; Trans.eu Group S.A., Poland</h3>
+                        <span class="timeline-date">11.2021 &ndash; 12.2023</span>
+                        <p>Designed functional test cases across multiple test levels, prioritised and
+                        maintained them in Xray with traceability, and ran manual and exploratory tests of
+                        new features. Tested REST APIs with Postman, analysed and reported bugs in Jira, and
+                        brought the testing perspective into refinements alongside dev teams and the business.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>API &amp; integration testing</h3>
-                        <p>Validating contracts, payloads, and error handling so the backend never lies to the frontend.</p>
+                        <h3>Technical Support Specialist &middot; Trans.eu Group S.A., Poland</h3>
+                        <span class="timeline-date">10.2018 &ndash; 11.2021</span>
+                        <p>Analysed and determined root causes of defects, designed and executed test cases
+                        including REST API checks, and analysed external systems for integration. Daily
+                        contact with clients' IT teams and technical support for key accounts.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>Quality advocacy</h3>
-                        <p>Embedding quality into every step of the SDLC &mdash; from grooming to retrospective.</p>
+                        <h3>Customer Service Consultant &middot; Trans.eu Group S.A., Poland</h3>
+                        <span class="timeline-date">05.2018 &ndash; 09.2018</span>
+                        <p>Active customer support in day-to-day operations, plus onboarding and training of
+                        new team members (knowledge transfer).</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Sales Specialist &middot; Trans.eu Group S.A., Poland</h3>
+                        <span class="timeline-date">02.2017 &ndash; 04.2018</span>
+                        <p>Sale of services and customer care.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="section-head">
+                <span class="section-num">04.</span>
+                <h2 class="section-title">Education &amp; certifications</h2>
+                <span class="section-line"></span>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Master's Degree &middot; Wrocław University, Poland</h3>
+                        <span class="timeline-date">2010 &ndash; 2012</span>
+                        <p>Journalism and Social Communication &mdash; specialisation in Public Relations.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor's Degree &middot; DSW University of Lower Silesia, Wrocław, Poland</h3>
+                        <span class="timeline-date">2008 &ndash; 2010</span>
+                        <p>Journalism and Social Communication &mdash; specialisation in Digital Media and
+                        Electronic Communication.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Certifications</h3>
+                        <ul class="about-list" style="margin-top:0.25rem;">
+                            <li>ISTQB Certified Tester &mdash; Foundation Level</li>
+                            <li>Test automation with Cypress</li>
+                            <li>SAFe 4 Product Owner / Product Manager</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -254,7 +313,7 @@
 
         <section id="contact" class="section section-contact">
             <div class="section-head">
-                <span class="section-num">04.</span>
+                <span class="section-num">05.</span>
                 <h2 class="section-title">Get in touch</h2>
                 <span class="section-line"></span>
             </div>
@@ -264,7 +323,24 @@
                     I'm open to QA &amp; quality engineering opportunities, collaborations,
                     or a good conversation about flaky tests. The fastest way to reach me:
                 </p>
+                <p style="font-family:'JetBrains Mono',monospace;font-size:0.85rem;color:var(--text-muted);margin-bottom:1.5rem;">
+                    📍 5600 Lenzburg, Switzerland &middot; Residence permit B
+                </p>
                 <div class="contact-links">
+                    <a class="contact-link" href="mailto:barbara.demczyszak@gmail.com">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+                        <span class="contact-text">
+                            <strong>Email</strong>
+                            <em>barbara.demczyszak@gmail.com</em>
+                        </span>
+                    </a>
+                    <a class="contact-link" href="tel:+41768285875">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span class="contact-text">
+                            <strong>Phone</strong>
+                            <em>+41 76 828 58 75</em>
+                        </span>
+                    </a>
                     <a class="contact-link" href="https://www.linkedin.com/in/barbara-demczyszak/" target="_blank" rel="noopener noreferrer">
                         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
                         <span class="contact-text">

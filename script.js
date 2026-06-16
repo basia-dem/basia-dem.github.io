@@ -3,11 +3,11 @@
 
     /* ---------- Typed role rotation ---------- */
     const roles = [
-        'QA Software Engineer',
-        'Test Automation Specialist',
-        'Bug Hunter',
-        'Quality Advocate',
-        'Reliability Enthusiast'
+        'QA Test Engineer',
+        'ISTQB Certified Tester',
+        'API & Backend Testing',
+        'Manual & Exploratory Testing',
+        'Agile / Scrum QA'
     ];
     const typedEl = document.getElementById('typed-role');
     if (typedEl) {

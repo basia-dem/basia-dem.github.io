@@ -608,8 +608,15 @@ a:hover { color: var(--accent-2); }
 .timeline-content h3 {
     color: var(--text);
     font-size: 1.05rem;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.2rem;
     font-weight: 600;
+}
+.timeline-date {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
 }
 .timeline-content p {
     color: var(--text-muted);
