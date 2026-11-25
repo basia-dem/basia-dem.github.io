@@ -3,371 +3,555 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Barbara Demczyszak — ISTQB-certified QA Test Engineer. Test case design across all test levels, API testing, and bug analysis in agile Scrum teams." />
+    <meta name="description" content="Barbara Demczyszak — Pentest Engineer and Software QA Engineer, owner of the Swiss digital agency Helvetia Pixel. Security assessments, test design, API and iOS app testing." />
     <meta name="author" content="Barbara Demczyszak" />
-    <meta name="theme-color" content="#0a0e17" />
-    <title>Barbara Demczyszak | QA Test Engineer</title>
+    <meta name="keywords" content="Barbara Demczyszak, Pentest Engineer, Penetration Testing, Security Assessment, Software QA Engineer, ISTQB, Helvetia Pixel, Alps Summits, Abfahrtli" />
+    <meta name="theme-color" content="#0a0c0f" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://barbarademczyszak.com/" />
+    <meta property="og:title" content="Barbara Demczyszak — Pentest Engineer &amp; Software QA Engineer" />
+    <meta property="og:description" content="Pentest Engineer and Software QA Engineer, owner of Helvetia Pixel. Authorised security assessments, test design and iOS app QA." />
+    <meta property="og:site_name" content="Barbara Demczyszak" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Barbara Demczyszak — Pentest Engineer &amp; Software QA Engineer" />
+    <meta name="twitter:description" content="Pentest Engineer and Software QA Engineer, owner of Helvetia Pixel." />
+
+    <title>Barbara Demczyszak | Pentest Engineer &amp; Software QA Engineer</title>
+    <link rel="canonical" href="https://barbarademczyszak.com/" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" /></noscript>
+    <script>document.documentElement.classList.add('js');</script>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AA%3C/text%3E%3C/svg%3E" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Barbara Demczyszak",
+        "jobTitle": "Pentest Engineer and Software QA Engineer",
+        "url": "https://barbarademczyszak.com",
+        "worksFor": { "@type": "Organization", "name": "Helvetia Pixel", "url": "https://helvetiapixel.ch" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Lenzburg", "addressCountry": "CH" },
+        "sameAs": [
+            "https://www.linkedin.com/in/barbara-demczyszak/",
+            "https://github.com/basia-dem",
+            "https://helvetiapixel.ch",
+            "https://apps.apple.com/ch/app/alps-summits/id6775881437",
+            "https://apps.apple.com/ch/app/abfahrtli/id6799713744"
+        ],
+        "email": "barbara.demczyszak@gmail.com"
+    }
+    </script>
 </head>
 <body>
-    <canvas id="matrix-bg" aria-hidden="true"></canvas>
+    <a href="#top" class="skip-link">Skip to content</a>
 
-    <nav class="nav">
-        <div class="nav-inner">
-            <a class="logo" href="#top" aria-label="Home">
-                <span class="logo-bracket">&lt;</span>
-                <span class="logo-name">BD</span>
-                <span class="logo-bracket">/&gt;</span>
-            </a>
+    <header class="nav">
+        <nav class="nav-in" aria-label="Primary">
+            <a href="#top" class="mono nav-brand" aria-label="Home">barbara<span class="accent">.sh</span><span class="cursor" aria-hidden="true"></span></a>
             <ul class="nav-links">
-                <li><a href="#about">about</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a class="nav-link mono" href="#about">./about</a></li>
+                <li><a class="nav-link mono" href="#projects">./projects</a></li>
+                <li><a class="nav-link mono" href="#experience">./experience</a></li>
+                <li><a class="nav-link mono" href="#stack">./stack</a></li>
+                <li><a class="nav-link mono" href="#contact">./contact</a></li>
             </ul>
-            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </nav>
+            <div class="nav-tools">
+                <span class="nav-status mono"><span class="live-dot"></span><span class="nav-status-txt">0 open criticals</span></span>
+                <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
 
     <main id="top">
-        <section class="hero">
-            <div class="hero-content">
-                <p class="hero-greet">$ whoami</p>
-                <h1 class="hero-name">
-                    <span class="gradient-text">Barbara Demczyszak</span>
+        <!-- ============ HERO ============ -->
+        <section class="hero wrap">
+            <div class="hero-main">
+                <div class="pill mono reveal-now">
+                    <span class="live-dot"></span>
+                    Pentest Engineer / Software QA
+                    <span class="hero-clock" title="Local time in Switzerland">CH <span id="ch-time">--:--</span></span>
+                </div>
+                <h1 class="hero-name reveal-now d1">
+                    <span class="glitch" data-text="Barbara">Barbara</span><span class="dot-hang accent">.<button type="button" class="hang" aria-label="A tiny bot hanging from the dot. Click to swing it." style="--bot:#FF7A7A"><span class="cable" aria-hidden="true"></span><span data-bot="hang"></span><span class="bubble mono" aria-hidden="true"></span></button></span>
                 </h1>
-                <h2 class="hero-role">
-                    <span class="prompt">&gt;</span>
-                    <span id="typed-role" class="typed"></span><span class="cursor">|</span>
-                </h2>
-                <p class="hero-desc">
-                    ISTQB-certified QA Test Engineer. I design structured test cases across
-                    all test levels, test REST APIs with Postman, and chase bugs until they
-                    confess &mdash; all within agile Scrum teams.
+                <p class="hero-role mono reveal-now d2">
+                    <span class="accent">&gt;</span> <span id="typed-role"></span><span class="cursor" aria-hidden="true"></span>
                 </p>
-                <div class="hero-cta">
+                <p class="hero-desc reveal-now d2">
+                    I break things on purpose &mdash; with permission. Pentest engineer running
+                    authorised security assessments of web apps, APIs and cloud, ISTQB-certified
+                    Software QA Engineer, and owner of the Swiss digital agency
+                    <a class="accent" href="https://helvetiapixel.ch" target="_blank" rel="noopener noreferrer">Helvetia Pixel</a>.
+                </p>
+                <div class="hero-cta reveal-now d3">
                     <a href="#contact" class="btn btn-primary">
-                        <span>Get in touch</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        Get in touch
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                     </a>
-                    <a href="https://github.com/basia-dem" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.1c-3.2.69-3.87-1.36-3.87-1.36-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11.06 11.06 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.58.23 2.75.11 3.04.73.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
-                        <span>View GitHub</span>
+                    <a href="https://www.linkedin.com/in/barbara-demczyszak/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+                        /in/barbara-demczyszak
                     </a>
                 </div>
             </div>
-            <div class="hero-terminal" aria-hidden="true">
-                <div class="terminal-header">
-                    <span class="term-dot term-red"></span>
-                    <span class="term-dot term-yellow"></span>
-                    <span class="term-dot term-green"></span>
-                    <span class="term-title">~/qa-engineer — zsh</span>
-                </div>
-                <div class="terminal-body">
-                    <p><span class="term-prompt">basia@qa</span>:<span class="term-path">~</span>$ cat profile.json</p>
-                    <pre class="term-code">{
-  <span class="key">"name"</span>: <span class="str">"Barbara"</span>,
-  <span class="key">"role"</span>: <span class="str">"QA Test Engineer"</span>,
-  <span class="key">"certified"</span>: <span class="str">"ISTQB Foundation Level"</span>,
-  <span class="key">"focus"</span>: [
-    <span class="str">"test case design"</span>,
-    <span class="str">"API testing (REST)"</span>,
-    <span class="str">"manual &amp; exploratory testing"</span>
-  ],
-  <span class="key">"location"</span>: <span class="str">"Lenzburg, CH"</span>,
-  <span class="key">"status"</span>: <span class="str">"open to opportunities"</span>,
-  <span class="key">"coffee"</span>: <span class="bool">true</span>
-}</pre>
-                    <p><span class="term-prompt">basia@qa</span>:<span class="term-path">~</span>$ <span class="blink">_</span></p>
+
+            <div class="hero-side reveal-now d3">
+                <button type="button" class="sitter" aria-label="A tiny bot sitting on the terminal. Click to say hi." style="--bot:#5CC8FF">
+                    <span class="bubble mono" aria-hidden="true"></span><span data-bot="sit"></span>
+                </button>
+                <div class="term hero-term">
+                    <div class="term-bar">
+                        <span class="term-light" style="background:#FF7A7A"></span>
+                        <span class="term-light" style="background:#FFB86B"></span>
+                        <span class="term-light" style="background:#7CF29A"></span>
+                        <span class="mono term-name">visitor@barbara — zsh — 80×24</span>
+                    </div>
+                    <div class="term-body shell-body mono" id="shell-body">
+                        <div id="shell-out" aria-live="polite">
+                            <noscript><div class="tl out">Barbara Demczyszak — Pentest Engineer, Software QA Engineer &amp; Owner of Helvetia Pixel.</div></noscript>
+                        </div>
+                        <form class="shell-form" id="shell-form" autocomplete="off">
+                            <label for="shell-in"><span class="accent">visitor@qa</span>:<span class="blue">~</span>$</label>
+                            <input id="shell-in" class="term-input" type="text" autocapitalize="off" spellcheck="false" placeholder="type 'help'" />
+                        </form>
+                    </div>
+                    <div class="shell-chips">
+                        <button type="button" class="chip-cmd mono" data-cmd="help">help</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="neofetch">neofetch</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="cat profile.json">cat profile.json</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="run tests">run tests</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="nmap">nmap</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="jira list">jira list</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="hire">hire</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="coffee">coffee</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="matrix">matrix</button>
+                        <button type="button" class="chip-cmd mono" data-cmd="self-destruct">self-destruct</button>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="section">
-            <div class="section-head">
-                <span class="section-num">01.</span>
-                <h2 class="section-title">About me</h2>
-                <span class="section-line"></span>
+        <!-- ============ BIG MARQUEE ============ -->
+        <div class="vm" aria-hidden="true">
+            <div class="vm-track" id="vm-track">
+                <span class="vm-word">Pentesting</span><span class="vm-sep">/</span><span class="vm-word">OWASP</span><span class="vm-sep">/</span><span class="vm-word">ISTQB</span><span class="vm-sep">/</span>
+            </div>
+        </div>
+
+        <!-- ============ ABOUT ============ -->
+        <section id="about" class="section wrap">
+            <div class="sec-head">
+                <span class="mono sec-kicker">01 / ABOUT</span>
+                <h2 class="sec-title">Find it before they do.</h2>
+                <p class="sec-lead">
+                    Hi, I'm <strong>Barbara</strong> &mdash; a Pentest Engineer and ISTQB-certified
+                    Software QA Engineer who genuinely enjoys finding the edge cases (and the
+                    security holes) everyone else overlooked.
+                </p>
             </div>
             <div class="about-grid">
-                <div class="about-text">
+                <div class="about-text" data-reveal>
                     <p>
-                        Hello! I'm <strong>Barbara</strong>, an <strong>ISTQB-certified
-                        QA Test Engineer</strong> who genuinely enjoys finding the edge cases
-                        everyone else overlooked. I believe great quality isn't a phase at the
-                        end of a sprint &mdash; it's a mindset baked into every refinement.
+                        As <strong>owner and managing director of Helvetia Pixel</strong>, I lead a
+                        digital agency in Lenzburg that helps Swiss SMEs modernise safely. My focus
+                        there is <strong>authorised security assessments</strong> &mdash; web apps,
+                        APIs and Azure cloud infrastructure, always with a written scope, a
+                        severity-rated report and an optional retest.
                     </p>
                     <p>
-                        My day-to-day mixes <strong>structured test case design</strong> across
-                        all test levels, <strong>manual &amp; exploratory testing</strong>, and
-                        <strong>REST API testing</strong> with Postman &mdash; with bugs analysed
-                        and tracked in Jira and Xray. I bring the testing perspective in early
-                        during refinements and work closely with developers and the business side.
+                        Before that I spent years in <strong>software QA</strong>: structured test design
+                        across all test levels, manual &amp; exploratory testing, REST API testing with
+                        Postman, and traceable test cases in Jira &amp; Xray. I was the
+                        <strong>Software QA Engineer</strong> for the iOS apps
+                        <strong>Alps Summits</strong> and <strong>Abfahrtli</strong>, both live on the App Store.
                     </p>
-                    <p>When I'm not testing, you'll find me:</p>
+                    <p class="mono dim">// when I'm not testing things:</p>
                     <ul class="about-list">
-                        <li>Sharpening my test automation skills with Playwright &amp; Cypress</li>
+                        <li>Running Helvetia Pixel and talking to Swiss SMEs about security</li>
+                        <li>Sharpening my pentest skills on labs and CTFs</li>
                         <li>Improving my German step by step</li>
                         <li>Drinking a strong coffee while reviewing test reports</li>
                     </ul>
                 </div>
-                <div class="about-card">
-                    <div class="stat">
-                        <span class="stat-num" data-target="100">0</span><span class="stat-unit">%</span>
-                        <span class="stat-label">commitment to quality</span>
+                <div class="impact-grid">
+                    <div class="impact" data-reveal style="--c:var(--accent)">
+                        <span class="impact-num"><span class="stat-num" data-target="100">0</span>%</span>
+                        <span class="impact-lbl">commitment to quality</span>
                     </div>
-                    <div class="stat">
-                        <span class="stat-num" data-target="3">0</span>
-                        <span class="stat-label">languages spoken (PL / DE / EN)</span>
+                    <div class="impact" data-reveal style="--c:#FF7A7A">
+                        <span class="impact-num"><span class="stat-num" data-target="0">0</span></span>
+                        <span class="impact-lbl">tests run without written scope</span>
                     </div>
-                    <div class="stat">
-                        <span class="stat-num" data-target="8">0</span>
-                        <span class="stat-unit">+</span>
-                        <span class="stat-label">years of professional experience</span>
+                    <div class="impact" data-reveal style="--c:#C4A1FF">
+                        <span class="impact-num"><span class="stat-num" data-target="8">0</span>+</span>
+                        <span class="impact-lbl">years of professional experience</span>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="section">
-            <div class="section-head">
-                <span class="section-num">02.</span>
-                <h2 class="section-title">Tech stack &amp; tools</h2>
-                <span class="section-line"></span>
-            </div>
-            <div class="skills-grid">
-                <article class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-                    </div>
-                    <h3>Test &amp; QA</h3>
-                    <ul class="skill-tags">
-                        <li>Test case design</li>
-                        <li>All test levels</li>
-                        <li>Exploratory testing</li>
-                        <li>Manual testing</li>
-                        <li>Bug analysis</li>
-                        <li>Traceability</li>
-                    </ul>
-                </article>
-                <article class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                    </div>
-                    <h3>Test Automation</h3>
-                    <ul class="skill-tags">
-                        <li>Playwright</li>
-                        <li>Cypress</li>
-                    </ul>
-                </article>
-                <article class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-                    </div>
-                    <h3>API &amp; Backend Testing</h3>
-                    <ul class="skill-tags">
-                        <li>REST API</li>
-                        <li>Postman</li>
-                        <li>Swagger / JSON</li>
-                    </ul>
-                </article>
-                <article class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
-                    </div>
-                    <h3>Tools &amp; Tracking</h3>
-                    <ul class="skill-tags">
-                        <li>Jira</li>
-                        <li>Xray</li>
-                        <li>SQL</li>
-                    </ul>
-                </article>
-                <article class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-                    </div>
-                    <h3>Methodologies</h3>
-                    <ul class="skill-tags">
-                        <li>Agile / Scrum</li>
-                        <li>SAFe (PO / PM)</li>
-                        <li>ISTQB</li>
-                    </ul>
-                </article>
-                <article class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    </div>
-                    <h3>Languages</h3>
-                    <ul class="skill-tags">
-                        <li>Polish — native</li>
-                        <li>German — A2 / B1</li>
-                        <li>English — A1 / A2</li>
-                    </ul>
-                </article>
-            </div>
-        </section>
-
-        <section id="experience" class="section">
-            <div class="section-head">
-                <span class="section-num">03.</span>
-                <h2 class="section-title">Experience</h2>
-                <span class="section-line"></span>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>QA Engineer &middot; Barbara Demczyszak QA Services @ Trans.eu</h3>
-                        <span class="timeline-date">01.2026 &ndash; 04.2026</span>
-                        <p>Analysed technical specifications and derived functional test cases. Created and
-                        maintained test cases in Xray with full traceability, ran manual and exploratory
-                        tests with test protocols, performed REST API testing with Postman, and reported
-                        bugs in Jira.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>QA Engineer &middot; Trans.eu Group S.A., Poland</h3>
-                        <span class="timeline-date">11.2021 &ndash; 12.2023</span>
-                        <p>Designed functional test cases across multiple test levels, prioritised and
-                        maintained them in Xray with traceability, and ran manual and exploratory tests of
-                        new features. Tested REST APIs with Postman, analysed and reported bugs in Jira, and
-                        brought the testing perspective into refinements alongside dev teams and the business.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Technical Support Specialist &middot; Trans.eu Group S.A., Poland</h3>
-                        <span class="timeline-date">10.2018 &ndash; 11.2021</span>
-                        <p>Analysed and determined root causes of defects, designed and executed test cases
-                        including REST API checks, and analysed external systems for integration. Daily
-                        contact with clients' IT teams and technical support for key accounts.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Customer Service Consultant &middot; Trans.eu Group S.A., Poland</h3>
-                        <span class="timeline-date">05.2018 &ndash; 09.2018</span>
-                        <p>Active customer support in day-to-day operations, plus onboarding and training of
-                        new team members (knowledge transfer).</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Sales Specialist &middot; Trans.eu Group S.A., Poland</h3>
-                        <span class="timeline-date">02.2017 &ndash; 04.2018</span>
-                        <p>Sale of services and customer care.</p>
+                    <div class="impact" data-reveal style="--c:#FFB86B">
+                        <span class="impact-num"><span class="stat-num" data-target="2">0</span></span>
+                        <span class="impact-lbl">iOS apps tested &amp; live on the App Store</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="education" class="section">
-            <div class="section-head">
-                <span class="section-num">04.</span>
-                <h2 class="section-title">Education &amp; certifications</h2>
-                <span class="section-line"></span>
+        <!-- ============ PROJECTS ============ -->
+        <section id="projects" class="section wrap">
+            <div class="sec-head">
+                <span class="mono sec-kicker">02 / PROJECTS</span>
+                <h2 class="sec-title">Things I've tested &amp; built.</h2>
+                <p class="sec-lead">Apps I signed off on as QA, and the agency I run.</p>
             </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Master's Degree &middot; Wrocław University, Poland</h3>
-                        <span class="timeline-date">2010 &ndash; 2012</span>
-                        <p>Journalism and Social Communication &mdash; specialisation in Public Relations.</p>
+            <div class="projects-grid">
+                <article class="card project" data-reveal style="--c:#FF7A7A">
+                    <div class="project-top">
+                        <div class="project-icon" aria-hidden="true">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                        <span class="badge mono">Digital Agency</span>
                     </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Bachelor's Degree &middot; DSW University of Lower Silesia, Wrocław, Poland</h3>
-                        <span class="timeline-date">2008 &ndash; 2010</span>
-                        <p>Journalism and Social Communication &mdash; specialisation in Digital Media and
-                        Electronic Communication.</p>
+                    <h3>Helvetia Pixel</h3>
+                    <p class="project-role mono">owner &amp; managing director &middot; pentest engineer</p>
+                    <p>
+                        A digital agency from Lenzburg, Switzerland, helping Swiss SMEs modernise
+                        safely &mdash; multilingual websites, zero-surprise platform migrations,
+                        automation and practical AI. I own the company and lead its
+                        <strong>security assessments</strong>: authorised pentests of web apps, APIs and
+                        Azure cloud, delivered with a severity-rated report and optional retest.
+                    </p>
+                    <ul class="tags mono">
+                        <li>Pentesting</li><li>Security Assessments</li><li>OWASP</li><li>Azure</li><li>Playwright</li><li>QA</li>
+                    </ul>
+                    <a class="project-link mono" href="https://helvetiapixel.ch" target="_blank" rel="noopener noreferrer">
+                        helvetiapixel.ch <span class="arrow" aria-hidden="true">&#8599;</span>
+                    </a>
+                </article>
+                <article class="card project" data-reveal style="--c:#5CC8FF">
+                    <div class="project-top">
+                        <div class="project-icon" aria-hidden="true">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                        </div>
+                        <span class="badge mono">iOS App</span>
                     </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Certifications</h3>
-                        <ul class="about-list" style="margin-top:0.25rem;">
-                            <li>ISTQB Certified Tester &mdash; Foundation Level</li>
-                            <li>Test automation with Cypress</li>
-                            <li>SAFe 4 Product Owner / Product Manager</li>
-                        </ul>
+                    <h3>Alps Summits</h3>
+                    <p class="project-role mono">software qa engineer</p>
+                    <p>
+                        An iOS app for exploring the peaks of the Alps. I owned quality from first
+                        build to App Store release &mdash; test design, exploratory testing on real
+                        devices, regression before every release, and bug reports the developer
+                        actually enjoyed reading.
+                    </p>
+                    <ul class="tags mono">
+                        <li>iOS</li><li>TestFlight</li><li>Exploratory</li><li>Regression</li><li>App Store</li>
+                    </ul>
+                    <a class="project-link mono" href="https://apps.apple.com/ch/app/alps-summits/id6775881437" target="_blank" rel="noopener noreferrer">
+                        View on App Store <span class="arrow" aria-hidden="true">&#8599;</span>
+                    </a>
+                </article>
+                <article class="card project" data-reveal style="--c:var(--accent)">
+                    <div class="project-top">
+                        <div class="project-icon" aria-hidden="true">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="3" rx="2"/><path d="M4 11h16"/><path d="M12 3v8"/><path d="m8 19-2 3"/><path d="m18 22-2-3"/><path d="M8 15h.01"/><path d="M16 15h.01"/></svg>
+                        </div>
+                        <span class="badge mono">iOS App</span>
                     </div>
-                </div>
+                    <h3>Abfahrtli</h3>
+                    <p class="project-role mono">software qa engineer</p>
+                    <p>
+                        Live departures from any Swiss station &mdash; trams, buses, trains, boats and
+                        cable cars, with real-time delays, platforms and Home &amp; Lock Screen widgets.
+                        I tested the real-time data, widgets and edge cases (delays, cancellations,
+                        no network) across devices and iOS versions.
+                    </p>
+                    <ul class="tags mono">
+                        <li>iOS</li><li>WidgetKit</li><li>API Testing</li><li>Edge Cases</li><li>App Store</li>
+                    </ul>
+                    <a class="project-link mono" href="https://apps.apple.com/ch/app/abfahrtli/id6799713744" target="_blank" rel="noopener noreferrer">
+                        View on App Store <span class="arrow" aria-hidden="true">&#8599;</span>
+                    </a>
+                </article>
             </div>
         </section>
 
-        <section id="contact" class="section section-contact">
-            <div class="section-head">
-                <span class="section-num">05.</span>
-                <h2 class="section-title">Get in touch</h2>
-                <span class="section-line"></span>
+        <!-- ============ EXPERIENCE (git log) ============ -->
+        <section id="experience" class="section wrap">
+            <div class="sec-head">
+                <span class="mono sec-kicker">03 / EXPERIENCE</span>
+                <h2 class="sec-title mono-title">git log --career</h2>
+                <p class="sec-lead">Where I've been, newest first. Click a commit to see the diff.</p>
             </div>
-            <div class="contact-card">
-                <h3>Let's build something reliable together.</h3>
-                <p>
-                    I'm open to QA &amp; quality engineering opportunities, collaborations,
-                    or a good conversation about flaky tests. The fastest way to reach me:
+            <div class="commits">
+                <details class="commit" data-reveal open>
+                    <summary class="commit-head">
+                        <span class="commit-dot" aria-hidden="true"></span>
+                        <span class="mono hash">f00d5ec</span>
+                        <span class="mono ref">HEAD -&gt; main</span>
+                        <span class="commit-title">Owner &amp; Pentest Engineer &middot; Helvetia Pixel</span>
+                        <span class="mono commit-date">2026 &ndash; now</span>
+                    </summary>
+                    <div class="diff mono">
+                        <div class="diff-line hdr">@@ security-assessments/ @@</div>
+                        <div class="diff-line del">- "we'll think about security after launch"</div>
+                        <div class="diff-line add">+ authorised pentests of web apps, APIs &amp; Azure cloud &mdash; written scope first</div>
+                        <div class="diff-line add">+ severity-rated reports with clear fixes, plus optional retest</div>
+                        <div class="diff-line add">+ running the agency: clients, quality and security built in from day one</div>
+                    </div>
+                </details>
+                <details class="commit" data-reveal>
+                    <summary class="commit-head">
+                        <span class="commit-dot" aria-hidden="true"></span>
+                        <span class="mono hash">a1b5e7c</span>
+                        <span class="commit-title">Software QA Engineer &middot; Alps Summits &amp; Abfahrtli (iOS)</span>
+                    </summary>
+                    <div class="diff mono">
+                        <div class="diff-line hdr">@@ ios/alps-summits ios/abfahrtli @@</div>
+                        <div class="diff-line del">- "it worked in the simulator"</div>
+                        <div class="diff-line add">+ test plans, exploratory &amp; regression testing on real devices</div>
+                        <div class="diff-line add">+ widget, real-time data and offline edge cases covered before release</div>
+                        <div class="diff-line add">+ two apps signed off and live on the App Store</div>
+                    </div>
+                </details>
+                <details class="commit" data-reveal>
+                    <summary class="commit-head">
+                        <span class="commit-dot" aria-hidden="true"></span>
+                        <span class="mono hash">7be04d8</span>
+                        <span class="commit-title">QA Engineer &middot; Barbara Demczyszak QA Services @ Trans.eu</span>
+                        <span class="mono commit-date">01.2026 &ndash; 04.2026</span>
+                    </summary>
+                    <div class="diff mono">
+                        <div class="diff-line hdr">@@ specs/ xray/ @@</div>
+                        <div class="diff-line add">+ functional test cases derived from technical specifications</div>
+                        <div class="diff-line add">+ test cases in Xray with full traceability; manual &amp; exploratory runs with protocols</div>
+                        <div class="diff-line add">+ REST API testing with Postman, bugs reported in Jira</div>
+                    </div>
+                </details>
+                <details class="commit" data-reveal>
+                    <summary class="commit-head">
+                        <span class="commit-dot" aria-hidden="true"></span>
+                        <span class="mono hash">e51c9a0</span>
+                        <span class="commit-title">QA Engineer &middot; Trans.eu Group S.A., Poland</span>
+                        <span class="mono commit-date">11.2021 &ndash; 12.2023</span>
+                    </summary>
+                    <div class="diff mono">
+                        <div class="diff-line hdr">@@ test-design/ api/ refinements/ @@</div>
+                        <div class="diff-line del">- testing as an afterthought at the end of the sprint</div>
+                        <div class="diff-line add">+ functional test cases across multiple test levels, prioritised in Xray</div>
+                        <div class="diff-line add">+ manual &amp; exploratory testing of new features, REST API tests in Postman</div>
+                        <div class="diff-line add">+ testing perspective brought into refinements with dev &amp; business</div>
+                    </div>
+                </details>
+                <details class="commit" data-reveal>
+                    <summary class="commit-head">
+                        <span class="commit-dot" aria-hidden="true"></span>
+                        <span class="mono hash">0c2d6f4</span>
+                        <span class="commit-title">Technical Support Specialist &middot; Trans.eu Group S.A.</span>
+                        <span class="mono commit-date">10.2018 &ndash; 11.2021</span>
+                    </summary>
+                    <div class="diff mono">
+                        <div class="diff-line hdr">@@ support/ integrations/ @@</div>
+                        <div class="diff-line add">+ root-cause analysis of defects, test cases incl. REST API checks</div>
+                        <div class="diff-line add">+ analysis of external systems for integration</div>
+                        <div class="diff-line add">+ daily contact with clients' IT teams and key-account support</div>
+                    </div>
+                </details>
+                <details class="commit" data-reveal>
+                    <summary class="commit-head">
+                        <span class="commit-dot" aria-hidden="true"></span>
+                        <span class="mono hash">9d18b73</span>
+                        <span class="commit-title">Customer Service &amp; Sales &middot; Trans.eu Group S.A.</span>
+                        <span class="mono commit-date">02.2017 &ndash; 09.2018</span>
+                    </summary>
+                    <div class="diff mono">
+                        <div class="diff-line hdr">@@ customers/ @@</div>
+                        <div class="diff-line add">+ customer support in day-to-day operations</div>
+                        <div class="diff-line add">+ onboarding and training of new team members</div>
+                        <div class="diff-line add">+ sale of services and customer care</div>
+                    </div>
+                </details>
+                <details class="commit" data-reveal>
+                    <summary class="commit-head">
+                        <span class="commit-dot" aria-hidden="true"></span>
+                        <span class="mono hash">1574b0f</span>
+                        <span class="mono ref">tag: education</span>
+                        <span class="commit-title">Education &amp; certifications</span>
+                    </summary>
+                    <div class="diff mono">
+                        <div class="diff-line hdr">@@ certs/ @@</div>
+                        <div class="diff-line add">+ ISTQB Certified Tester &mdash; Foundation Level</div>
+                        <div class="diff-line add">+ Test automation with Cypress</div>
+                        <div class="diff-line add">+ SAFe 4 Product Owner / Product Manager</div>
+                        <div class="diff-line hdr">@@ university/ @@</div>
+                        <div class="diff-line add">+ Master's, Journalism &amp; Social Communication (PR) &mdash; Wrocław University, 2010&ndash;2012</div>
+                        <div class="diff-line add">+ Bachelor's, Journalism &amp; Social Communication &mdash; DSW Wrocław, 2008&ndash;2010</div>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- ============ STACK ============ -->
+        <section id="stack" class="section wrap">
+            <div class="sec-head">
+                <span class="mono sec-kicker">04 / STACK</span>
+                <h2 class="sec-title">Tools I reach for.</h2>
+                <p class="sec-lead">Grouped by what they do. Pick a group to filter.</p>
+            </div>
+            <div class="tabs" role="group" aria-label="Filter by group">
+                <button type="button" class="tab on" data-filter="all" aria-pressed="true">all</button>
+                <button type="button" class="tab" data-filter="security" aria-pressed="false">security</button>
+                <button type="button" class="tab" data-filter="qa" aria-pressed="false">qa</button>
+                <button type="button" class="tab" data-filter="automation" aria-pressed="false">automation</button>
+                <button type="button" class="tab" data-filter="api" aria-pressed="false">api</button>
+                <button type="button" class="tab" data-filter="mobile" aria-pressed="false">mobile</button>
+                <button type="button" class="tab" data-filter="tools" aria-pressed="false">tools</button>
+                <button type="button" class="tab" data-filter="methods" aria-pressed="false">methods</button>
+                <button type="button" class="tab" data-filter="lang" aria-pressed="false">languages</button>
+            </div>
+            <ul class="chips">
+                <li class="chip" data-group="security" style="--c:#FF7A7A">Penetration Testing</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">Security Assessments</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">Web App Security</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">API Security</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">Azure Cloud Security</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">OWASP Top 10</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">Burp Suite</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">OWASP ZAP</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">Nmap</li>
+                <li class="chip" data-group="security" style="--c:#FF7A7A">CVSS Reporting</li>
+                <li class="chip" data-group="qa" style="--c:var(--accent)">Test Case Design</li>
+                <li class="chip" data-group="qa" style="--c:var(--accent)">All Test Levels</li>
+                <li class="chip" data-group="qa" style="--c:var(--accent)">Exploratory Testing</li>
+                <li class="chip" data-group="qa" style="--c:var(--accent)">Manual Testing</li>
+                <li class="chip" data-group="qa" style="--c:var(--accent)">Regression Testing</li>
+                <li class="chip" data-group="qa" style="--c:var(--accent)">Bug Analysis</li>
+                <li class="chip" data-group="qa" style="--c:var(--accent)">Traceability</li>
+                <li class="chip" data-group="automation" style="--c:#C4A1FF">Playwright</li>
+                <li class="chip" data-group="automation" style="--c:#C4A1FF">Cypress</li>
+                <li class="chip" data-group="api" style="--c:#5CC8FF">REST API</li>
+                <li class="chip" data-group="api" style="--c:#5CC8FF">Postman</li>
+                <li class="chip" data-group="api" style="--c:#5CC8FF">Swagger / OpenAPI</li>
+                <li class="chip" data-group="api" style="--c:#5CC8FF">JSON</li>
+                <li class="chip" data-group="mobile" style="--c:#E7ECF2">iOS App Testing</li>
+                <li class="chip" data-group="mobile" style="--c:#E7ECF2">TestFlight</li>
+                <li class="chip" data-group="mobile" style="--c:#E7ECF2">Widgets</li>
+                <li class="chip" data-group="mobile" style="--c:#E7ECF2">App Store Releases</li>
+                <li class="chip" data-group="tools" style="--c:#FFB86B">Jira</li>
+                <li class="chip" data-group="tools" style="--c:#FFB86B">Xray</li>
+                <li class="chip" data-group="tools" style="--c:#FFB86B">SQL</li>
+                <li class="chip" data-group="methods" style="--c:#7FE0D0">Agile / Scrum</li>
+                <li class="chip" data-group="methods" style="--c:#7FE0D0">SAFe (PO / PM)</li>
+                <li class="chip" data-group="methods" style="--c:#7FE0D0">ISTQB</li>
+                <li class="chip" data-group="lang" style="--c:#FFD866">Polish &mdash; native</li>
+                <li class="chip" data-group="lang" style="--c:#FFD866">German &mdash; A2 / B1</li>
+                <li class="chip" data-group="lang" style="--c:#FFD866">English &mdash; A1 / A2</li>
+            </ul>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section id="contact" class="section wrap contact">
+            <div class="contact-main">
+                <span class="mono sec-kicker">05 / CONTACT</span>
+                <h2 class="sec-title contact-title">Let's find your bugs before attackers do.</h2>
+                <p class="sec-lead">
+                    Open to pentest &amp; security assessment engagements, QA projects,
+                    or a good conversation about edge cases. Based in Lenzburg, Switzerland.
                 </p>
-                <p style="font-family:'JetBrains Mono',monospace;font-size:0.85rem;color:var(--text-muted);margin-bottom:1.5rem;">
-                    📍 5600 Lenzburg, Switzerland &middot; Residence permit B
-                </p>
-                <div class="contact-links">
-                    <a class="contact-link" href="mailto:barbara.demczyszak@gmail.com">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
-                        <span class="contact-text">
-                            <strong>Email</strong>
-                            <em>barbara.demczyszak@gmail.com</em>
-                        </span>
+                <div class="socials">
+                    <div class="social-row">
+                        <a class="social" href="mailto:barbara.demczyszak@gmail.com">
+                            <span>Email</span><span class="mono social-sub">barbara.demczyszak@gmail.com</span><span class="arrow" aria-hidden="true">&#8599;</span>
+                        </a>
+                        <button type="button" class="btn btn-ghost copy-btn mono" data-copy="barbara.demczyszak@gmail.com">copy</button>
+                    </div>
+                    <a class="social" href="tel:+41768285875">
+                        <span>Phone</span><span class="mono social-sub">+41 76 828 58 75</span><span class="arrow" aria-hidden="true">&#8599;</span>
                     </a>
-                    <a class="contact-link" href="tel:+41768285875">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        <span class="contact-text">
-                            <strong>Phone</strong>
-                            <em>+41 76 828 58 75</em>
-                        </span>
+                    <a class="social" href="https://www.linkedin.com/in/barbara-demczyszak/" target="_blank" rel="noopener noreferrer">
+                        <span>LinkedIn</span><span class="mono social-sub">/in/barbara-demczyszak</span><span class="arrow" aria-hidden="true">&#8599;</span>
                     </a>
-                    <a class="contact-link" href="https://www.linkedin.com/in/barbara-demczyszak/" target="_blank" rel="noopener noreferrer">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
-                        <span class="contact-text">
-                            <strong>LinkedIn</strong>
-                            <em>linkedin.com/in/barbara-demczyszak</em>
-                        </span>
+                    <a class="social" href="https://github.com/basia-dem" target="_blank" rel="noopener noreferrer">
+                        <span>GitHub</span><span class="mono social-sub">basia-dem</span><span class="arrow" aria-hidden="true">&#8599;</span>
                     </a>
-                    <a class="contact-link" href="https://github.com/basia-dem" target="_blank" rel="noopener noreferrer">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.1c-3.2.69-3.87-1.36-3.87-1.36-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11.06 11.06 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.58.23 2.75.11 3.04.73.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
-                        <span class="contact-text">
-                            <strong>GitHub</strong>
-                            <em>github.com/basia-dem</em>
-                        </span>
+                    <a class="social" href="https://helvetiapixel.ch" target="_blank" rel="noopener noreferrer">
+                        <span>Helvetia Pixel</span><span class="mono social-sub">helvetiapixel.ch</span><span class="arrow" aria-hidden="true">&#8599;</span>
                     </a>
+                    <a class="social" href="https://apps.apple.com/ch/app/alps-summits/id6775881437" target="_blank" rel="noopener noreferrer">
+                        <span>Alps Summits</span><span class="mono social-sub">App Store</span><span class="arrow" aria-hidden="true">&#8599;</span>
+                    </a>
+                    <a class="social" href="https://apps.apple.com/ch/app/abfahrtli/id6799713744" target="_blank" rel="noopener noreferrer">
+                        <span>Abfahrtli</span><span class="mono social-sub">App Store</span><span class="arrow" aria-hidden="true">&#8599;</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="term tf" data-reveal>
+                <div class="term-bar">
+                    <span class="term-light" style="background:#FF7A7A"></span>
+                    <span class="term-light" style="background:#FFB86B"></span>
+                    <span class="term-light" style="background:#7CF29A"></span>
+                    <span class="mono term-name">hire.tf — terraform</span>
+                </div>
+                <div class="term-body mono" aria-live="polite">
+                    <div class="tl cmd">$ terraform plan -out=hire.tfplan</div>
+                    <div class="tl out">&nbsp;</div>
+                    <div class="tl out"># team.security_engineer["barbara"] will be created</div>
+                    <div class="tl ok">+ resource "team" "security_engineer" {</div>
+                    <div class="tl ok">    + name    = "Barbara Demczyszak"</div>
+                    <div class="tl ok">    + role    = "Pentest / QA Engineer"</div>
+                    <div class="tl ok">    + company = "Helvetia Pixel"</div>
+                    <div class="tl ok">    + base    = "Switzerland"</div>
+                    <div class="tl ok">    + certs   = ["ISTQB"]</div>
+                    <div class="tl ok">    + coffee  = true</div>
+                    <div class="tl ok">  }</div>
+                    <div class="tl out">&nbsp;</div>
+                    <div class="tl cmd">Plan: 1 to add, 0 to change, 0 to destroy.</div>
+                    <div class="tl out">&nbsp;</div>
+                    <div id="tf-ask">
+                        <div class="tl out">Do you want to perform these actions?</div>
+                        <div class="tl out">  Only 'yes' will be accepted to approve.</div>
+                        <div class="tl err" id="tf-err" hidden>Error: apply cancelled. (it really does have to be 'yes')</div>
+                        <form class="tf-form" id="tf-form">
+                            <label for="tf-input">Enter a value:</label>
+                            <input id="tf-input" class="term-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="yes" />
+                            <button type="submit" class="tab mono">yes &#8629;</button>
+                        </form>
+                    </div>
+                    <div id="tf-out"></div>
+                    <div class="tf-done" id="tf-done" hidden>
+                        <a class="btn btn-primary" href="mailto:barbara.demczyszak@gmail.com?subject=Let%27s%20work%20together">
+                            Get in touch
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                        </a>
+                        <button type="button" class="btn btn-ghost" id="tf-reset">plan again</button>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <p>
-            Crafted with <span class="footer-heart">&lt;3</span> and a lot of <span class="footer-coffee">coffee</span>
-            &middot; &copy; <span id="year">2026</span> Barbara Demczyszak
-        </p>
-        <p class="footer-sub">Built &amp; deployed on GitHub Pages</p>
+    <canvas id="matrix-bg" aria-hidden="true" hidden></canvas>
+    <div id="bots" aria-hidden="true"></div>
+    <div class="crew mono" id="crew">
+        <span class="live-dot"></span>
+        <span><span id="crew-count">0</span><span class="crew-txt"> testers on shift</span></span>
+        <button type="button" id="crew-hire">+ hire</button>
+        <button type="button" id="crew-coffee">coffee break</button>
+    </div>
+
+    <footer class="footer wrap mono">
+        <span>&copy; <span id="year">2026</span> Barbara Demczyszak &middot; <a href="https://helvetiapixel.ch" target="_blank" rel="noopener noreferrer">Helvetia Pixel</a></span>
+        <span class="dim">built with &lt;3, coffee &amp; zero untested releases &middot; GitHub Pages</span>
     </footer>
 
     <script src="script.js"></script>
+    <script src="playground.js"></script>
 </body>
 </html>

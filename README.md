@@ -1,6 +1,6 @@
 # personal-web
 
-Personal portfolio site for **Barbara Demczyszak** — QA Software Engineer.
+Personal portfolio site for **Barbara Demczyszak** — Pentest Engineer, Software QA Engineer and owner of Helvetia Pixel.
 
 Static site, no build step. Pure HTML / CSS / vanilla JS.
 
@@ -32,6 +32,8 @@ The `.nojekyll` file disables Jekyll processing so files/folders starting with `
 ## Files
 
 - `index.html` — markup
-- `styles.css` — styling (dark IT/terminal theme)
-- `script.js` — typed role, matrix background, scroll reveal, stat counters
+- `styles.css` — styling (dark terminal theme, sister design of michaldemczyszak.com)
+- `script.js` — typed role, scroll reveal, stat counters, stack filter, contact terminal
+- `playground.js` — interactive shell, worker bots, marquee, matrix rain
+- `favicon.svg` — site icon
 - `.nojekyll` — GitHub Pages config
